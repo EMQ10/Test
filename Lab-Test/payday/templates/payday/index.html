@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" href="{% static 'payday/styles.css' %}">
+<html lang="en">
+    <head>
+        <title>Is it Pay day?</title>
+    </head>
+    <body>
+        <h1>Is it Pay Day ?</h1>
+        {% if payday %}
+            <h1>YES its Payday.Check Your Account!</h1>
+            
+        {% else %}
+            <h1>Sorry its not Yet PayDay. Be patient!</h1>
+            <h1>Your Cheque will Come Soon</h1>
+
+        {% endif %}
+    </body>
+</html>

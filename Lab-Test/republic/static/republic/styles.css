@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px gold;
+
+}
+
+body {
+    background-image: url("images/dm.jpg") ;
+    background-position: top;
+}  
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 2px gold;
+    padding-bottom: 80px;
+
+}

@@ -1,0 +1,14 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 3px gold;
+
+}
+
+body {
+    padding-top: 40px;
+    background-image: url("images/cash.png");
+    background-size: cover;
+}
